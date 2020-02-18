@@ -2,9 +2,9 @@ import React from "react";
 import logo from "./logo.svg";
 
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Projects from ".component/Projects.js";
-import Resume from ".component/Resume.js";
-import About from ".component/About.js";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import About from "./components/About";
 import "./App.css";
 
 function App() {
