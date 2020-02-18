@@ -1,10 +1,12 @@
 import React from "react";
+import { Wrapper, Section, DivContainer } from "../styles/Container";
 
 function Education(props) {
   return (
-    <div>
-      <h1>Education</h1>
-    </div>
+    <Wrapper>
+      <Section>Education</Section>
+      <DivContainer> </DivContainer>
+    </Wrapper>
   );
 }
 

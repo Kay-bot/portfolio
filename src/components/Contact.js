@@ -1,10 +1,12 @@
 import React from "react";
+import { Wrapper, Section, DivContainer } from "../styles/Container";
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <Wrapper>
+      <Section>Contact</Section>
+      <DivContainer> </DivContainer>
+    </Wrapper>
   );
 }
 

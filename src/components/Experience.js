@@ -1,10 +1,11 @@
 import React from "react";
-
+import { Wrapper, Section, DivContainer } from "../styles/Container";
 function Experience(props) {
   return (
-    <div>
-      <h1>Experience</h1>
-    </div>
+    <Wrapper>
+      <Section>Education</Section>
+      <DivContainer> </DivContainer>
+    </Wrapper>
   );
 }
 

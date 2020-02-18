@@ -1,10 +1,11 @@
 import React from "react";
-
+import { Wrapper, Section, DivContainer } from "../styles/Container";
 function Skills(props) {
   return (
-    <div>
-      <h1>Skills</h1>
-    </div>
+    <Wrapper>
+      <Section>Skills</Section>
+      <DivContainer> </DivContainer>
+    </Wrapper>
   );
 }
 
