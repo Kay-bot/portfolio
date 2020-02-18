@@ -17,18 +17,21 @@ const App = () => {
     setNavbarOpen(!navbarOpen);
   };
   return (
-    <BrowserRouter>
-      <Navbar navbarState={navbarOpen} handleNavbar={handleNavbar} />
-      <Switch>
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/project" component={Projects} />
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/Education" component={Education} />
-        <Route exact path="/experience" component={Experience} />
-        <Route exact path="/resume" component={Resume} />
-      </Switch>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar navbarState={navbarOpen} handleNavbar={handleNavbar} />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/project" component={Projects} />
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/experience" component={Experience} />
+          <Route exact path="/resume" component={Resume} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 };
 

@@ -1,10 +1,14 @@
 import React from "react";
+import { Wrapper, StyledHero, ProfileImage } from "../styles/Container";
+import profile from "../images/profile.jpg";
 
 function About(props) {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <Wrapper>
+      <StyledHero>
+        <ProfileImage src={profile} />
+      </StyledHero>
+    </Wrapper>
   );
 }
 
