@@ -24,7 +24,7 @@ const Navbar = (props) => {
     <>
       <NavBar style={barAnimation}>
         <FlexContainer>
-          <Link to="/">
+          <Link to="/portforlio">
             <Brand />
           </Link>
           <NavLinks style={linkAnimation}>

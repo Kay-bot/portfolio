@@ -3,7 +3,7 @@ import { Wrapper, Section, DivContainer } from "../styles/Container";
 function Experience(props) {
   return (
     <Wrapper>
-      <Section>Education</Section>
+      <Section>Experience</Section>
       <DivContainer> </DivContainer>
     </Wrapper>
   );
