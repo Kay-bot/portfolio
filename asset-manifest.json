@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.ca3c924b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ca3c924b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.25b7de80.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.25b7de80.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.3bebe76c.chunk.js": "/portfolio/static/js/2.3bebe76c.chunk.js",
-    "static/js/2.3bebe76c.chunk.js.map": "/portfolio/static/js/2.3bebe76c.chunk.js.map",
+    "static/js/2.3a4197d3.chunk.js": "/portfolio/static/js/2.3a4197d3.chunk.js",
+    "static/js/2.3a4197d3.chunk.js.map": "/portfolio/static/js/2.3a4197d3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.194665442ed0f4784af47777b371477b.js": "/portfolio/precache-manifest.194665442ed0f4784af47777b371477b.js",
+    "precache-manifest.2a076ad2a7e60321cf80eff41963a874.js": "/portfolio/precache-manifest.2a076ad2a7e60321cf80eff41963a874.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.3bebe76c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3bebe76c.chunk.js.LICENSE.txt",
+    "static/js/2.3a4197d3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3a4197d3.chunk.js.LICENSE.txt",
+    "static/media/Bootstrap.png": "/portfolio/static/media/Bootstrap.cfecb2da.png",
+    "static/media/ExpressNodeJS.png": "/portfolio/static/media/ExpressNodeJS.26bdcd15.png",
+    "static/media/GoDaddy.png": "/portfolio/static/media/GoDaddy.4bd3b89f.png",
+    "static/media/Homebrew.png": "/portfolio/static/media/Homebrew.522a8f67.png",
+    "static/media/JavascriptIcon.png": "/portfolio/static/media/JavascriptIcon.79046a55.png",
+    "static/media/MySQL.png": "/portfolio/static/media/MySQL.9a410af8.png",
+    "static/media/Rails.png": "/portfolio/static/media/Rails.68ba2f99.png",
+    "static/media/ReactLogo.png": "/portfolio/static/media/ReactLogo.2bee11a8.png",
+    "static/media/SQlite3.png": "/portfolio/static/media/SQlite3.27495625.png",
+    "static/media/StyledComponents.png": "/portfolio/static/media/StyledComponents.3745d5de.png",
+    "static/media/WordPress.jpeg": "/portfolio/static/media/WordPress.9bbd042f.jpeg",
     "static/media/logo1.png": "/portfolio/static/media/logo1.9723b34f.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.c183f893.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.3bebe76c.chunk.js",
-    "static/js/main.ca3c924b.chunk.js"
+    "static/js/2.3a4197d3.chunk.js",
+    "static/js/main.25b7de80.chunk.js"
   ]
 }
