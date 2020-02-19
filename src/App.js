@@ -23,13 +23,13 @@ const App = () => {
         <Navbar navbarState={navbarOpen} handleNavbar={handleNavbar} />
         <Switch>
           <Route exact path="/portfolio" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/project" component={Projects} />
-          <Route exact path="/skills" component={Skills} />
-          <Route exact path="/education" component={Education} />
-          <Route exact path="/experience" component={Experience} />
-          <Route exact path="/resume" component={Resume} />
+          <Route path="/portfolio/about" component={About} />
+          <Route path="/portfolio/contact" component={Contact} />
+          <Route path="/portfolio/project" component={Projects} />
+          <Route path="/portfolio/skills" component={Skills} />
+          <Route path="/portfolio/education" component={Education} />
+          <Route path="/portfolio/experience" component={Experience} />
+          <Route path="/portfolio/resume" component={Resume} />
         </Switch>
       </BrowserRouter>
     </>
