@@ -70,7 +70,7 @@ export const DivContainer = styled.div`
   position: relative;
   top: 10px;
   margin: 0;
-  width: 95%;
+  width: 100%;
   @media only screen and (min-width: 600px) {
     flow-text: {
       line-height: 2.88rem;
@@ -99,4 +99,37 @@ export const Container1 = styled.div`
 
 export const Container2 = styled.div`
   margin: 0;
+`;
+
+export const Container3 = styled.div`
+  margin: 10px;
+  border: 1px solid #ccc;
+`;
+
+export const CardContainer = styled.div`
+  color: brown;
+  margin: 15px;
+`;
+
+export const FlexContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+export const Card = styled.div`
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+`;
+
+export const Image = styled.img`
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+`;
+
+export const Label = styled.div`
+  display: center;
+  color: black;
 `;
