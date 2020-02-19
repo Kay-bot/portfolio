@@ -24,17 +24,17 @@ const Navbar = (props) => {
     <>
       <NavBar style={barAnimation}>
         <FlexContainer>
-          <Link to="/portforlio">
+          <Link to="/">
             <Brand />
           </Link>
           <NavLinks style={linkAnimation}>
-            <Link to="/portfolio/about">About</Link>
-            <Link to="/portfolio/contact">Contact</Link>
-            <Link to="/portfolio/project">Projects</Link>
-            <Link to="/portfolio/skills">Skills</Link>
-            <Link to="/portfolio/Education">Education</Link>
-            <Link to="/portfolio/experience">Experience</Link>
-            <Link to="/portfolio/resume">Resume</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/project">Projects</Link>
+            <Link to="/skills">Skills</Link>
+            <Link to="/Education">Education</Link>
+            <Link to="/experience">Experience</Link>
+            <Link to="/resume">Resume</Link>
           </NavLinks>
           <Wrapper>
             <Menu

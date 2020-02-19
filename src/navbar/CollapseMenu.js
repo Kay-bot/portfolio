@@ -20,43 +20,43 @@ const CollapseMenu = (props) => {
       >
         <NavLinks>
           <li>
-            <a href="/portforlio" onClick={props.handleNavbar}>
+            <a href="/" onClick={props.handleNavbar}>
               Home
             </a>
           </li>
           <li>
-            <a href="/portfolio/about" onClick={props.handleNavbar}>
+            <a href="/about" onClick={props.handleNavbar}>
               About
             </a>
           </li>
           <li>
-            <a href="/portfolio/contact" onClick={props.handleNavbar}>
+            <a href="/contact" onClick={props.handleNavbar}>
               Contact
             </a>
           </li>
           <li>
-            <a href="/portfolio/project" onClick={props.handleNavbar}>
+            <a href="/project" onClick={props.handleNavbar}>
               Projects
             </a>
           </li>
           <li>
-            <a href="/portfolio/skills" onClick={props.handleNavbar}>
+            <a href="/skills" onClick={props.handleNavbar}>
               Skills
             </a>
           </li>
           <li>
-            <a href="/portfolio/education" onClick={props.handleNavbar}>
+            <a href="/education" onClick={props.handleNavbar}>
               Education
             </a>
           </li>
           <li>
-            <a href="/portfolio/experience" onClick={props.handleNavbar}>
+            <a href="/experience" onClick={props.handleNavbar}>
               Experience
             </a>
           </li>
 
           <li>
-            <a href="/portfolio/resume" onClick={props.handleNavbar}>
+            <a href="/resume" onClick={props.handleNavbar}>
               Resume
             </a>
           </li>

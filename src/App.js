@@ -22,14 +22,14 @@ const App = () => {
       <BrowserRouter>
         <Navbar navbarState={navbarOpen} handleNavbar={handleNavbar} />
         <Switch>
-          <Route exact path="/portfolio" component={Home} />
-          <Route path="/portfolio/about" component={About} />
-          <Route path="/portfolio/contact" component={Contact} />
-          <Route path="/portfolio/project" component={Projects} />
-          <Route path="/portfolio/skills" component={Skills} />
-          <Route path="/portfolio/education" component={Education} />
-          <Route path="/portfolio/experience" component={Experience} />
-          <Route path="/portfolio/resume" component={Resume} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/project" component={Projects} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/education" component={Education} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/resume" component={Resume} />
         </Switch>
       </BrowserRouter>
     </>
