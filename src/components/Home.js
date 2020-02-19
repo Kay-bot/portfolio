@@ -12,12 +12,12 @@ function Home(props) {
   return (
     <Wrapper>
       <About />
-      <Contact />
       <Projects />
       <Skills />
       <Education />
       <Experience />
       <Resume />
+      <Contact />
     </Wrapper>
   );
 }

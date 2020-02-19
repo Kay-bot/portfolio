@@ -5,25 +5,33 @@ export const Wrapper = styled.section`
 `;
 
 export const StyledHero = styled.div`
-  min-height: 60vh;
+  min-height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/271/397/298/anno-2205-4k-8k-wallpaper-preview.jpg");
+  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/271/397/298/anno-2205-4k-8k-wallpaper-preview.jpg");
   background-size: cover;
-  background-color: rgba(0, 0, 0, 5);
+  background-color: rgba(0, 0, 0, 5); */
+  @media only screen and (max-width: 768px) {
+    min-height: 30vh;
+  }
 
   @media only screen and (max-width: 600px) {
-    min-height: 100%;
+    min-height: 50%;
   }
 `;
 
 export const ProfileImage = styled.img`
-  padding-top: 10px;
+  /* padding-top: 10px; */
   height: 20%;
   width: 20%;
   border-radius: 50%;
+
+  @media only screen and (max-width: 768px) {
+    height: 50%;
+    width: 50%;
+  }
   @media only screen and (max-width: 600px) {
     height: 50%;
     width: 50%;
@@ -36,7 +44,7 @@ export const Name = styled.div`
   font-size: 38px;
   text-align: center;
   line-height: 20px;
-  color: orange;
+  color: teal;
   @media only screen and (max-width: 600px) {
     font-size: 28px;
   }
@@ -110,12 +118,12 @@ export const CardContainer = styled.div`
   color: brown;
   margin: 15px;
 `;
-
 export const FlexContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: space-evenly;
 `;
+
 export const Card = styled.div`
   vertical-align: top;
   display: inline-block;

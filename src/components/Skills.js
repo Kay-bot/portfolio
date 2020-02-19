@@ -119,41 +119,21 @@ function Skills(props) {
       </Container3>
       <Container3>
         <CardContainer>
-          <h1>Package Manager</h1>
+          <h1>CMS & Cloud Platform</h1>
           <hr></hr>
           <FlexContainer>
             <Card>
-              <Image src={Yarn} alt="Yarn logo" />
-              <Label>Yarn</Label>
+              <Image src={WordPress} alt="WordPress logo" />
+              <Label>WordPress</Label>
             </Card>
             <Card>
-              <Image src={NPM} alt="NPM logo" />
-              <Label>NPM</Label>
+              <Image src={Joomla} alt="Joomla logo" />
+              <Label>Joomla</Label>
             </Card>
             <Card>
-              <Image src={Homebrew} alt="Homebrew logo" />
-              <Label>Homebrew</Label>
+              <Image src={Dropal} alt="Dropal logo" />
+              <Label> Drupal</Label>
             </Card>
-          </FlexContainer>
-        </CardContainer>
-      </Container3>
-      <Container3>
-        <CardContainer>
-          <h1>Command Language</h1>
-          <hr></hr>
-          <FlexContainer>
-            <Card>
-              <Image src={Bash} alt="Unix/Bash logo" />
-              <Label> Unix/Bash</Label>
-            </Card>
-          </FlexContainer>
-        </CardContainer>
-      </Container3>
-      <Container3>
-        <CardContainer>
-          <h1>Cloud Platform</h1>
-          <hr></hr>
-          <FlexContainer>
             <Card>
               <Image src={Heroku} alt="Heroku logo" />
               <Label>Heroku</Label>
@@ -171,48 +151,36 @@ function Skills(props) {
       </Container3>
       <Container3>
         <CardContainer>
-          <h1>Version Control System</h1>
+          <h1>Others</h1>
           <hr></hr>
           <FlexContainer>
             <Card>
               <Image src={Git} alt="Git logo" />
-              <Label>Git</Label>
+              <Label>Git Version Control System</Label>
             </Card>
-          </FlexContainer>
-        </CardContainer>
-      </Container3>
-      <Container3>
-        <CardContainer>
-          <h1>Editor Tools</h1>
-          <hr></hr>
-          <FlexContainer>
+            <Card>
+              <Image src={Yarn} alt="Yarn logo" />
+              <Label>Yarn Package Manager</Label>
+            </Card>
+            <Card>
+              <Image src={NPM} alt="NPM logo" />
+              <Label>NPM Package Manager</Label>
+            </Card>
+            <Card>
+              <Image src={Homebrew} alt="Homebrew logo" />
+              <Label>Homebrew Package Manager</Label>
+            </Card>
             <Card>
               <Image src={VSC} alt="Visual Studio Code logo" />
-              <Label>Visual Studio Code</Label>
+              <Label>Visual Studio Code Code Editor</Label>
             </Card>
             <Card>
               <Image src={VIM} alt="VIM Text Editor logo" />
-              <Label>VIM</Label>
-            </Card>
-          </FlexContainer>
-        </CardContainer>
-      </Container3>
-      <Container3>
-        <CardContainer>
-          <h1>CMS</h1>
-          <hr></hr>
-          <FlexContainer>
-            <Card>
-              <Image src={WordPress} alt="WordPress logo" />
-              <Label>WordPress</Label>
+              <Label>VIM Text Editor</Label>
             </Card>
             <Card>
-              <Image src={Joomla} alt="Joomla logo" />
-              <Label>Joomla</Label>
-            </Card>
-            <Card>
-              <Image src={Dropal} alt="Dropal logo" />
-              <Label> Drupal</Label>
+              <Image src={Bash} alt="Unix/Bash logo" />
+              <Label>Unix/Bash Command Language</Label>
             </Card>
           </FlexContainer>
         </CardContainer>
