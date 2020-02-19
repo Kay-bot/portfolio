@@ -23,7 +23,7 @@ export const StyledHero = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  /* padding-top: 10px; */
+  padding-top: 10px;
   height: 20%;
   width: 20%;
   border-radius: 50%;
@@ -46,7 +46,8 @@ export const Name = styled.div`
   line-height: 20px;
   color: teal;
   @media only screen and (max-width: 600px) {
-    font-size: 28px;
+    line-height: 10px;
+    font-size: 24px;
   }
 `;
 
@@ -59,6 +60,8 @@ export const Title = styled.div`
   line-height: 20px;
   color: brown;
   @media only screen and (max-width: 600px) {
+    padding-top: 24px;
+    line-height: 10px;
     font-size: 18px;
   }
 `;
@@ -103,6 +106,10 @@ export const Container1 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 600px) {
+    height: 4em;
+    padding-bottom: 10px;
+  }
 `;
 
 export const Container2 = styled.div`
