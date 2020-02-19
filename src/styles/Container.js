@@ -10,10 +10,13 @@ export const StyledHero = styled.div`
   align-items: center;
   justify-content: center;
   padding: 15px;
-
   background-image: url("https://c4.wallpaperflare.com/wallpaper/271/397/298/anno-2205-4k-8k-wallpaper-preview.jpg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 5);
+
+  @media only screen and (max-width: 600px) {
+    min-height: 100%;
+  }
 `;
 
 export const ProfileImage = styled.img`
@@ -21,6 +24,10 @@ export const ProfileImage = styled.img`
   height: 20%;
   width: 20%;
   border-radius: 50%;
+  @media only screen and (max-width: 600px) {
+    height: 50%;
+    width: 50%;
+  }
 `;
 
 export const Name = styled.div`
@@ -30,6 +37,9 @@ export const Name = styled.div`
   text-align: center;
   line-height: 20px;
   color: orange;
+  @media only screen and (max-width: 600px) {
+    font-size: 28px;
+  }
 `;
 
 export const Title = styled.div`
@@ -40,6 +50,9 @@ export const Title = styled.div`
   text-align: center;
   line-height: 20px;
   color: brown;
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 `;
 
 export const Section = styled.section`
