@@ -26,7 +26,7 @@ export const ProfileImage = styled.img`
 export const Name = styled.div`
   height: 33%;
   width: 100%;
-  font-size: 50px;
+  font-size: 38px;
   text-align: center;
   line-height: 20px;
   color: orange;
