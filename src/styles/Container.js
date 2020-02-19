@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
 `;
 
 export const StyledHero = styled.div`
-  min-height: 40vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,9 +17,29 @@ export const StyledHero = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  height: 33%;
-  width: 33%;
+  padding-top: 10px;
+  height: 20%;
+  width: 20%;
   border-radius: 50%;
+`;
+
+export const Name = styled.div`
+  height: 33%;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 20px;
+  color: orange;
+`;
+
+export const Title = styled.div`
+  padding-top: 35px;
+  height: 33%;
+  width: 100%;
+  font-size: 28px;
+  text-align: center;
+  line-height: 20px;
+  color: brown;
 `;
 
 export const Section = styled.section`
@@ -55,4 +75,15 @@ export const Blockquote = styled.div`
   font-weight: 400;
   margin: 20px 0;
   padding-left: 1.5rem;
+`;
+
+export const Container1 = styled.div`
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Container2 = styled.div`
+  margin: 0;
 `;

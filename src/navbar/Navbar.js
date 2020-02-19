@@ -78,7 +78,7 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
 
   & a {
-    color: orange;
+    color: teal;
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;

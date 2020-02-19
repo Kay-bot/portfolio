@@ -5,7 +5,11 @@ import {
   ProfileImage,
   Section,
   DivContainer,
-  Blockquote
+  Blockquote,
+  Container1,
+  Container2,
+  Name,
+  Title
 } from "../styles/Container";
 import profile from "../images/profile.jpg";
 
@@ -16,6 +20,13 @@ function About(props) {
         <StyledHero>
           <ProfileImage src={profile} />
         </StyledHero>
+        <Container1>
+          <Container2>
+            <Name>Kay Srikaew</Name>
+            <Title>Full Stack Developer</Title>
+          </Container2>
+        </Container1>
+
         <Section>About</Section>
         <DivContainer>
           <Blockquote>
