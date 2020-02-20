@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d380d00188e19005b8d5c677c8131ba7",
+    "revision": "4edb775655cb020d4c6832558f24dfd3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "62286c9872a5bd550977",
-    "url": "/portfolio/static/js/2.3a4197d3.chunk.js"
+    "revision": "e8a839dd954347b60391",
+    "url": "/portfolio/static/js/2.60749a60.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/portfolio/static/js/2.3a4197d3.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.60749a60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29fff1a21a2d9595e490",
-    "url": "/portfolio/static/js/main.46a1c6cd.chunk.js"
+    "revision": "94597cbb994b834d90bd",
+    "url": "/portfolio/static/js/main.5c853c1c.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
+    "revision": "2e980245692502eac4c436c7cb08c37b",
+    "url": "/portfolio/static/media/BookingApp.2e980245.png"
+  },
+  {
     "revision": "cfecb2da14ecb652a50758fd12f2d5cb",
     "url": "/portfolio/static/media/Bootstrap.cfecb2da.png"
+  },
+  {
+    "revision": "5fc8cad504925ebab2bb82a670e064ad",
+    "url": "/portfolio/static/media/BurgerRecipe.5fc8cad5.png"
+  },
+  {
+    "revision": "59f49de538474ee3f9b4a5d656f76a13",
+    "url": "/portfolio/static/media/EuropeCars.59f49de5.png"
   },
   {
     "revision": "26bdcd1522937d05915328db94148a7a",
@@ -44,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/MySQL.9a410af8.png"
   },
   {
+    "revision": "5e09403dd40338360d9cc8290406019c",
+    "url": "/portfolio/static/media/Portfolio.5e09403d.png"
+  },
+  {
     "revision": "68ba2f9982a273587134eac5bebc36f2",
     "url": "/portfolio/static/media/Rails.68ba2f99.png"
   },
@@ -58,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3745d5de0728ec47786eb328c7076356",
     "url": "/portfolio/static/media/StyledComponents.3745d5de.png"
+  },
+  {
+    "revision": "d4d134c0831dca9b5368f8fb8312033c",
+    "url": "/portfolio/static/media/TodoList.d4d134c0.png"
   },
   {
     "revision": "9bbd042fba44d2edb81a39cf83910a13",
