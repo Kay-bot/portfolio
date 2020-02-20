@@ -29,8 +29,8 @@ export const ProfileImage = styled.img`
   border-radius: 50%;
 
   @media only screen and (max-width: 768px) {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
   }
   @media only screen and (max-width: 600px) {
     height: 50%;
@@ -73,7 +73,7 @@ export const Section = styled.section`
   position: relative;
   display: block;
   color: whitesmoke;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
 `;
 
@@ -147,4 +147,50 @@ export const Image = styled.img`
 export const Label = styled.div`
   display: center;
   color: black;
+`;
+
+export const ProjectContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+`;
+
+export const ProjectCard = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+  margin: 1%;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  @media (max-width: 900px) {
+    width: 30%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+`;
+
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+`;
+
+export const ProjectDetailsContainer = styled.div`
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 150px;
+`;
+
+export const ProjectDetails = styled.p`
+  font-size: 16px;
+  margin: 5px;
+  line-height: 15px;
 `;

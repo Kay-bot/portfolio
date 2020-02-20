@@ -8,12 +8,18 @@ function Education(props) {
       <DivContainer>
         <div>
           <p>
-            <b>General Assembly Sydney</b> Software Engineer Immersive
+            <a href="https://generalassemb.ly/locations/sydney">
+              <b>General Assembly Sydney</b>
+            </a>{" "}
+            &nbsp; Software Engineer Immersive
           </p>
         </div>
         <div>
           <p>
-            <b>Curtin University Western Australia</b> Master of Margeting
+            <a href="https://www.curtin.edu.au/">
+              <b>Curtin University Perth</b>
+            </a>{" "}
+            &nbsp; Master of Marketing
           </p>
         </div>
       </DivContainer>
