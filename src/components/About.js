@@ -30,29 +30,29 @@ function About(props) {
         <Section>About</Section>
         <DivContainer>
           <Blockquote>
-            Seeking an opportunity as a Junior Full-Stack Software Engineer for
-            a company who will continuously motivate and drive me to do my best
-            and improve on my skills and abilities to be able to assist the
-            company in achieving its company mission and goals.
+            I aspire to be part of a dev team to develop software applications
+            that truly serve people, increase productivity and efficiency
+            leading to a better customer experience resulting in better company
+            revenue performance.
           </Blockquote>
           <p>
-            For more than 10 years, I pursued a career as a business support
-            coordinator for BAU and project setting. I have always been curious
-            and want to know how things work behind an application system. So, I
-            joined a few introduction web development courses and went about
-            teaching myself HTML, CSS and JavaScript. During this time, I also
-            earned Prince 2 Agile practitioner accreditation. Eventually, I
-            decided to take the leap, took a Software Engineer Immersive course
-            at General Assembly and set myself up for a new journey.
+            As an experienced business support coordinator for over 10 years and
+            through the exploration of using various software applications, I am
+            aware of the immense positive or negative impacts in business. I
+            have always been curious and wanted to know how software operates
+            behind an application system. So, I joined a few introductive web
+            development courses and dived into teaching myself HTML, CSS and
+            JavaScript. During this time, I earned a Prince 2 Agile practitioner
+            accreditation. Eventually, I decided to take the leap, took a
+            Software Engineer Immersive course at General Assembly, and set
+            myself up for a new journey.
           </p>
           <p>
-            As an end-user using multiple software systems for business and
-            project management, I know these tools can have much positive or
-            negative impact on the businesses. Technology should make someone
-            life easier, not harder. I want to make a different and to be part
-            of a dev team to develop software system applications that truly
-            serve people, increase productivities, improve the quality of life,
-            and help businesses save money.{" "}
+            I am seeking an entry-level opportunity as a Full-Stack Developer
+            for a company whose values align with mine, and who will
+            continuously motivate and drive me to perform to the best of my
+            ability, while being able to assist the company in achieving its
+            missions and goals.
           </p>
         </DivContainer>
       </Wrapper>
