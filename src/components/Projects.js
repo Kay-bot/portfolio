@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   Wrapper,
   Section,
@@ -14,7 +13,7 @@ import TodoList from "../images/TodoList.png";
 import EuropeCars from "../images/EuropeCars.png";
 import BurgerRecipe from "../images/BurgerRecipe.png";
 import BookingApp from "../images/BookingApp.png";
-import Portfolio from "../images/Portfolio.png";
+import Portfolio from "../images/Portfolio.jpg";
 
 function Projects(props) {
   return (
@@ -28,20 +27,17 @@ function Projects(props) {
               <ProjectDetails>
                 <b>Portfolio</b>
               </ProjectDetails>
+              <ProjectDetails>Static site build on React JS.</ProjectDetails>
               <ProjectDetails>
-                Static site build on React JS and Styled-Components for styling.
-                App deployed on Github.
+                Used Styled-Components for styling.
               </ProjectDetails>
+              <ProjectDetails>App published on Github.</ProjectDetails>
               <ProjectDetails>
-                <Link to="https://kay-bot.github.io/portfolio/">
-                  View online
-                </Link>
+                <a href="https://kay-bot.github.io/portfolio/">View online</a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link href="https://github.com/Kay-bot/portfolio">
-                  View Source
-                </Link>
+                <a href="https://github.com/Kay-bot/portfolio">View Source</a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
@@ -51,20 +47,18 @@ function Projects(props) {
               <ProjectDetails>
                 <b>BurgerRecipe App</b>
               </ProjectDetails>
+              <ProjectDetails>Front-end: React</ProjectDetails>
+              <ProjectDetails>Backend: Rails</ProjectDetails>
+              <ProjectDetails>Database:PostgresQL</ProjectDetails>
+              <ProjectDetails>Deployed runtime on Heroku</ProjectDetails>
               <ProjectDetails>
-                Built on React as front end and Rails as backend. Deployed
-                runtime on Heroku.
-              </ProjectDetails>
-              <ProjectDetails>
-                <Link href="https://burger-recipe.herokuapp.com/">
-                  View online
-                </Link>
+                <a href="https://burger-recipe.herokuapp.com/">View online</a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link href="https://github.com/project-two/burgerRecipe">
+                <a href="https://github.com/project-two/burgerRecipe">
                   View Source
-                </Link>
+                </a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
@@ -75,17 +69,16 @@ function Projects(props) {
                 <b>EuropeCars App</b>
               </ProjectDetails>
               <ProjectDetails>
-                Front-end and back-end built on Ruby on Rails frameworks.
-                Deployed runtime on Heroku.
+                Front-end and back-end built on Ruby on Rails framework.{" "}
               </ProjectDetails>
+              <ProjectDetails>Database: PostgresQL</ProjectDetails>
+              <ProjectDetails>Deployed runtime on Heroku.</ProjectDetails>
               <ProjectDetails>
-                <Link to="https://europecars.herokuapp.com/">View online</Link>
+                <a href="https://europecars.herokuapp.com/">View online</a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link to="https://github.com/Kay-bot/europe_cars">
-                  View Source
-                </Link>
+                <a href="https://github.com/Kay-bot/europe_cars">View Source</a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
@@ -98,20 +91,19 @@ function Projects(props) {
               <ProjectDetails>
                 <b>Movies Rating App</b>
               </ProjectDetails>
+              <ProjectDetails>Front-end: React</ProjectDetails>
+              <ProjectDetails>Backend: Express</ProjectDetails>
+              <ProjectDetails>Deployed runtime on Heroku</ProjectDetails>
               <ProjectDetails>
-                Built on React as front end and Express as backend. Deployed
-                runtime on Heroku
-              </ProjectDetails>
-              <ProjectDetails>
-                <Link to="https://quiet-eyrie-00674.herokuapp.com/">
+                <a href="https://quiet-eyrie-00674.herokuapp.com/">
                   View online
-                </Link>
+                </a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link to="https://github.com/Kay-bot/express-pagination">
+                <a href="https://github.com/Kay-bot/express-pagination">
                   View Source
-                </Link>
+                </a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
@@ -123,18 +115,20 @@ function Projects(props) {
               </ProjectDetails>
               <ProjectDetails>
                 Used Vanila JavaScript to build the app and local storage to
-                store data. Deployed on Github
+                store database.
               </ProjectDetails>
+              <ProjectDetails>App published on Github</ProjectDetails>
+
               <ProjectDetails>
-                <Link to="https://kay-bot.github.io/Project0_todos-app/">
+                <a href="https://kay-bot.github.io/Project0_todos-app/">
                   View online
-                </Link>
+                </a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link to="https://github.com/Kay-bot/Project0_todos-app">
+                <a href="https://github.com/Kay-bot/Project0_todos-app">
                   View Source
-                </Link>
+                </a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
@@ -144,18 +138,20 @@ function Projects(props) {
               <ProjectDetails>
                 <b>Booking App</b>
               </ProjectDetails>
-              Built on React as front end and Rails as backend. Deployed runtime
-              on Heroku.
+              <ProjectDetails>Front-end: React</ProjectDetails>
+              <ProjectDetails>Backend: Rails</ProjectDetails>
+              <ProjectDetails>Database:PostgresQL</ProjectDetails>
+              <ProjectDetails>Deployed runtime on Heroku</ProjectDetails>
               <ProjectDetails>
-                <Link to="https://booking-app-final-project.herokuapp.com/">
+                <a href="https://booking-app-final-project.herokuapp.com/">
                   View online
-                </Link>
+                </a>
               </ProjectDetails>
               <ProjectDetails>
                 {" "}
-                <Link to="https://github.com/Kay-bot/booking-app-final-project">
+                <a href="https://github.com/Kay-bot/booking-app-final-project">
                   View Source
-                </Link>
+                </a>
               </ProjectDetails>
             </ProjectDetailsContainer>
           </ProjectCard>
