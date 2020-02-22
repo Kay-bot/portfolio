@@ -30,7 +30,7 @@ function About(props) {
         <Section>About</Section>
         <DivContainer>
           <Blockquote>
-            I aspire to be part of a dev team to develop software applications
+            I am eager to be part of a dev team to develop software applications
             that truly serve people, increase productivity and efficiency
             leading to a better customer experience resulting in better company
             revenue performance.
@@ -46,13 +46,6 @@ function About(props) {
             accreditation. Eventually, I decided to take the leap, took a
             Software Engineer Immersive course at General Assembly, and set
             myself up for a new journey.
-          </p>
-          <p>
-            I am seeking an entry-level opportunity as a Full-Stack Developer
-            for a company whose values align with mine, and who will
-            continuously motivate and drive me to perform to the best of my
-            ability, while being able to assist the company in achieving its
-            missions and goals.
           </p>
         </DivContainer>
       </Wrapper>
