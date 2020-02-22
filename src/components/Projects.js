@@ -14,6 +14,7 @@ import EuropeCars from "../images/EuropeCars.png";
 import BurgerRecipe from "../images/BurgerRecipe.png";
 import BookingApp from "../images/BookingApp.png";
 import Portfolio from "../images/Portfolio.jpg";
+import RockPaperScissors from "../images/RockPaperScissors.png";
 
 function Projects(props) {
   return (
@@ -127,6 +128,31 @@ function Projects(props) {
               <ProjectDetails>
                 {" "}
                 <a href="https://github.com/Kay-bot/Project0_todos-app">
+                  View Source
+                </a>
+              </ProjectDetails>
+            </ProjectDetailsContainer>
+          </ProjectCard>
+          <ProjectCard>
+            <ProjectImage
+              src={RockPaperScissors}
+              alt="Rock Paper Scissors Game"
+            />
+            <ProjectDetailsContainer>
+              <ProjectDetails>
+                <b>Rock Paper Scissors Games</b>
+              </ProjectDetails>
+              <ProjectDetails>Used Vanila JavaScript to build</ProjectDetails>
+
+              <ProjectDetails>Published on Github</ProjectDetails>
+              <ProjectDetails>
+                <a href="https://kay-bot.github.io/Rock-Paper-Scissors-Game/">
+                  View online
+                </a>
+              </ProjectDetails>
+              <ProjectDetails>
+                {" "}
+                <a href="https://github.com/Kay-bot/Rock-Paper-Scissors-Game">
                   View Source
                 </a>
               </ProjectDetails>
