@@ -49,11 +49,11 @@ const CollapseMenu = (props) => {
               Education
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/portfolio/experience" onClick={props.handleNavbar}>
               Experience
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a href="/portfolio/resume" onClick={props.handleNavbar}>

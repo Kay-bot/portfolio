@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import Resume from "./components/Resume";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/portfolio/project" component={Projects} />
           <Route path="/portfolio/skills" component={Skills} />
           <Route path="/portfolio/education" component={Education} />
-          <Route path="/portfolio/experience" component={Experience} />
+          {/* <Route path="/portfolio/experience" component={Experience} /> */}
           <Route path="/portfolio/resume" component={Resume} />
         </Switch>
       </BrowserRouter>

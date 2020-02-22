@@ -33,7 +33,7 @@ const Navbar = (props) => {
             <Link to="/portfolio/project">Projects</Link>
             <Link to="/portfolio/skills">Skills</Link>
             <Link to="/portfolio/Education">Education</Link>
-            <Link to="/portfolio/experience">Experience</Link>
+            {/* <Link to="/portfolio/experience">Experience</Link> */}
             <Link to="/portfolio/resume">Resume</Link>
           </NavLinks>
           <Wrapper>

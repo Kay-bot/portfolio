@@ -18,7 +18,7 @@ function Contact(props) {
         </p>
         <p>
           <FaGithubSquare /> &nbsp;
-          <a href="github.com/Kay-bot">github.com/Kay-bot</a>
+          <a href="https://github.com/Kay-bot">github.com/Kay-bot</a>
         </p>
         <p>
           <FaLinkedinIn /> &nbsp;
