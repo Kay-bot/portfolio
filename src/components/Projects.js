@@ -64,6 +64,29 @@ function Projects(props) {
             </ProjectDetailsContainer>
           </ProjectCard>
           <ProjectCard>
+            <ProjectImage src={BookingApp} alt="BookingApp" />
+            <ProjectDetailsContainer>
+              <ProjectDetails>
+                <b>Booking App</b>
+              </ProjectDetails>
+              <ProjectDetails>Front-end: React</ProjectDetails>
+              <ProjectDetails>Backend: Rails</ProjectDetails>
+              <ProjectDetails>Database:PostgresQL</ProjectDetails>
+              <ProjectDetails>Deployed runtime on Heroku</ProjectDetails>
+              <ProjectDetails>
+                <a href="https://book-your-class-app.herokuapp.com/">
+                  View online
+                </a>
+              </ProjectDetails>
+              <ProjectDetails>
+                {" "}
+                <a href="https://github.com/Kay-bot/book-your-class-app">
+                  View Source
+                </a>
+              </ProjectDetails>
+            </ProjectDetailsContainer>
+          </ProjectCard>
+          <ProjectCard>
             <ProjectImage src={EuropeCars} alt="EuropeCars" />
             <ProjectDetailsContainer>
               <ProjectDetails>
@@ -153,29 +176,6 @@ function Projects(props) {
               <ProjectDetails>
                 {" "}
                 <a href="https://github.com/Kay-bot/Rock-Paper-Scissors-Game">
-                  View Source
-                </a>
-              </ProjectDetails>
-            </ProjectDetailsContainer>
-          </ProjectCard>
-          <ProjectCard>
-            <ProjectImage src={BookingApp} alt="BookingApp" />
-            <ProjectDetailsContainer>
-              <ProjectDetails>
-                <b>Booking App</b>
-              </ProjectDetails>
-              <ProjectDetails>Front-end: React</ProjectDetails>
-              <ProjectDetails>Backend: Rails</ProjectDetails>
-              <ProjectDetails>Database:PostgresQL</ProjectDetails>
-              <ProjectDetails>Deployed runtime on Heroku</ProjectDetails>
-              <ProjectDetails>
-                <a href="https://booking-app-final-project.herokuapp.com/">
-                  View online
-                </a>
-              </ProjectDetails>
-              <ProjectDetails>
-                {" "}
-                <a href="https://github.com/Kay-bot/booking-app-final-project">
                   View Source
                 </a>
               </ProjectDetails>
