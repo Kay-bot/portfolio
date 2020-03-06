@@ -28,13 +28,11 @@ const Navbar = (props) => {
             <Brand />
           </Link>
           <NavLinks style={linkAnimation}>
-            <Link to="/portfolio/about">About</Link>
-            <Link to="/portfolio/contact">Contact</Link>
+            <Link to="/portfolio/">Home</Link>
             <Link to="/portfolio/project">Projects</Link>
             <Link to="/portfolio/skills">Skills</Link>
-            <Link to="/portfolio/Education">Education</Link>
+
             {/* <Link to="/portfolio/experience">Experience</Link> */}
-            <Link to="/portfolio/resume">Resume</Link>
           </NavLinks>
           <Wrapper>
             <Menu

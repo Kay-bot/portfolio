@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   padding: 5px;
+  margin: 20px;
 `;
 
 export const StyledHero = styled.div`
@@ -67,8 +68,7 @@ export const Title = styled.div`
 `;
 
 export const Section = styled.section`
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20px;
   background: teal;
   position: relative;
   display: block;

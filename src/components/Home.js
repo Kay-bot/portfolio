@@ -6,7 +6,6 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
 // import Experience from "./Experience";
-import Resume from "./Resume";
 
 function Home(props) {
   return (
@@ -15,8 +14,6 @@ function Home(props) {
       <Projects />
       <Skills />
       <Education />
-      {/* <Experience /> */}
-      <Resume />
       <Contact />
     </Wrapper>
   );

@@ -5,8 +5,8 @@ function Resume(props) {
     <Wrapper>
       <Section>Resume</Section>
       <DivContainer>
-        <a href="https://drive.google.com/file/d/1Q8XcA-XcbKQdXt-Kq8sizw34Zb9p_9bM/view">
-          View Resume
+        <a href="https://drive.google.com/open?id=10tqU48u7g9mczZtN0V5KwsEkudUiZhhN">
+          Download Resume
         </a>
         <br />
         <br />

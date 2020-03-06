@@ -30,22 +30,25 @@ function About(props) {
         <Section>About</Section>
         <DivContainer>
           <Blockquote>
-            I am eager to be part of a dev team to develop software applications
-            that truly serve people, increase productivity and efficiency
-            leading to a better customer experience resulting in better company
-            revenue performance.
+            I aspire to develop software that truly serve people, increase
+            productivity and efficiency leading to a better customer experience.
           </Blockquote>
           <p>
-            As an experienced business support coordinator for over 10 years and
-            through the exploration of using various software applications, I am
-            aware of the immense positive or negative impacts in business. I
-            have always been curious and wanted to know how software operates
-            behind an application system. So, I joined a few introductive web
-            development courses and dived into teaching myself HTML, CSS and
-            JavaScript. During this time, I earned a Prince 2 Agile practitioner
-            accreditation. Eventually, I decided to take the leap, took a
-            Software Engineer Immersive course at General Assembly, and set
-            myself up for a new journey.
+            With years of experience as a business support coordinator and as a
+            self-starter, I have always been curious and wanted to know how
+            software operates behind an application system. So, I joined a few
+            introductive web development courses and dived into teaching myself
+            HTML, CSS and JavaScript. During this time, I earned a Prince 2
+            Agile practitioner accreditation. Eventually, I decided to take the
+            leap, took a Software Engineer Immersive course at General Assembly,
+            and set myself up for a new journey.
+          </p>
+          <p>
+            More about me, download{" "}
+            <a href="https://drive.google.com/open?id=10tqU48u7g9mczZtN0V5KwsEkudUiZhhN">
+              resume
+            </a>
+            .
           </p>
         </DivContainer>
       </Wrapper>
