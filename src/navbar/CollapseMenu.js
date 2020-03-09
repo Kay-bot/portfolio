@@ -29,11 +29,7 @@ const CollapseMenu = (props) => {
               About
             </a>
           </li>
-          <li>
-            <a href="/portfolio/contact" onClick={props.handleNavbar}>
-              Contact
-            </a>
-          </li>
+
           <li>
             <a href="/portfolio/project" onClick={props.handleNavbar}>
               Projects
@@ -42,22 +38,6 @@ const CollapseMenu = (props) => {
           <li>
             <a href="/portfolio/skills" onClick={props.handleNavbar}>
               Skills
-            </a>
-          </li>
-          <li>
-            <a href="/portfolio/education" onClick={props.handleNavbar}>
-              Education
-            </a>
-          </li>
-          {/* <li>
-            <a href="/portfolio/experience" onClick={props.handleNavbar}>
-              Experience
-            </a>
-          </li> */}
-
-          <li>
-            <a href="/portfolio/resume" onClick={props.handleNavbar}>
-              Resume
             </a>
           </li>
         </NavLinks>
