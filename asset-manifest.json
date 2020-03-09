@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.7ae5e99c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7ae5e99c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6482cb62.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6482cb62.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/js/2.daac13c6.chunk.js": "/portfolio/static/js/2.daac13c6.chunk.js",
     "static/js/2.daac13c6.chunk.js.map": "/portfolio/static/js/2.daac13c6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2bd2f068026d3b8cc549d31cfdca8e1f.js": "/portfolio/precache-manifest.2bd2f068026d3b8cc549d31cfdca8e1f.js",
+    "precache-manifest.8e8f0d10a3c718fc07ab6d7f9fe92bb0.js": "/portfolio/precache-manifest.8e8f0d10a3c718fc07ab6d7f9fe92bb0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/js/2.daac13c6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.daac13c6.chunk.js.LICENSE.txt",
     "static/media/BookingApp.png": "/portfolio/static/media/BookingApp.2e980245.png",
@@ -33,6 +33,6 @@
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/js/2.daac13c6.chunk.js",
-    "static/js/main.7ae5e99c.chunk.js"
+    "static/js/main.6482cb62.chunk.js"
   ]
 }
