@@ -30,8 +30,9 @@ function About(props) {
         <Section>About</Section>
         <DivContainer>
           <Blockquote>
-            I aspire to develop software that truly serve people, increase
-            productivity and efficiency leading to a better customer experience.
+            I aspire to develop software that truly serves people, increases
+            productivity and efficiency and ultimately leads to a better
+            customer experience.
           </Blockquote>
           <p>
             With years of experience as a business support coordinator and as a

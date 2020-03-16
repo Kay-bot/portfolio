@@ -23,7 +23,7 @@ function Contact(props) {
         <p>
           <FaLinkedinIn /> &nbsp;
           <a href="https://www.linkedin.com/in/kay-srikaew">
-            inkedin.com/in/kay-srikaew
+            Linkedin.com/in/kay-srikaew
           </a>
         </p>
       </DivContainer>
